@@ -1,0 +1,212 @@
+html{
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+}
+
+.port > div {
+    padding: 0 !important;
+  }
+  .port img {
+    width: 100%;
+    height: auto;
+  }
+  @media (max-width: 480px) { 
+    .col-xs-6 { 
+      width: 100% !important; 
+    } 
+  }
+.avo {
+    font-size: 20px;
+    margin: 0%;
+}
+.form-group{
+    margin: 3%;
+    margin-left: 2%;
+    margin-right: 27%;
+}
+.jumbotron {
+background-color: white;
+}
+.form-control{
+    font-size:  0.6em;
+}
+.navbar-inverse{
+    background-color: #e7d7eb;
+    border-color: #e7d7eb;
+}
+.recc{
+    background-image: url("photos/annie-spratt-695510-unsplash.jpg");
+    font-size: 20px;
+}
+.autumn{
+    font-size: 20px;
+    margin: 0%;
+}
+.spring{
+    font-size: 20px;
+    margin: 0%;
+}
+.recpe{
+    background-image: url("photos/annie-spratt-695510-unsplash.jpg");
+    font-size: 20px;
+    margin: 0%;
+}
+.container{
+    margin-top: 8%;
+
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 2.7s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+
+}
+.weather-container {
+     text-align: right;
+}
+.weatherNow {
+    text-align: right;
+    font-size: 0.5em;
+}
+.temp {
+    text-align: right;
+    font-size: 1.9em;
+    font-weight: bold;
+}
+aside{
+    font-family: 
+    'Cormorant Garamond', serif;
+    font-size: 1.6em;
+    font-style: normal;
+    text-decoration: unset;
+    text-transform: lowercase;
+    text-align: right;
+}
+.contaner{
+    margin-right: 25%;
+    margin-left: 1%;
+}
+
+#love{
+    font-size: 1.9em;
+    color: #aa3fca;
+}
+#lo{
+    font-size: 1.6em;
+    color: #8c5b9b;
+}
+#lov{
+    font-size: 1.1em;
+    color: #af7ebe;
+}
+#loveee{
+    font-size: 0.8em;
+    color: #bf8ece;
+}
+#first{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.8em;
+    text-align: left;
+    text-transform: uppercase;
+}
+#after{
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    font-size: 0.6em;
+    background-color: #eff30a;
+}
+#jump{
+    color: rgb(201, 81, 201);
+    text-decoration: blueviolet;
+    text-decoration-line: underline;
+}
+a{
+    color: rgb(201, 81, 201);
+    text-decoration: blueviolet;
+    text-decoration-line: underline;
+}
+a:visited{
+    color: rgb(54, 3, 48);
+    text-decoration-line: none;
+}
+a:hover{
+    background-color: rgb(0, 162, 255);
+}
+button, a:focus{
+    background-color: rgb(73, 73, 170);
+    caret-color: rgb(180, 87, 87)
+}
+a:active{
+    background-color: rgb(72, 14, 126);
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 2.2em;
+    text-decoration-color: rgb(65, 8, 119);
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    font-size: 2.0em;
+}
+h3{
+    font-family: 'Domine', serif;
+    font-size: 1.6em;
+    text-decoration-color: rgb(116, 53, 175);
+    text-transform: capitalize;
+}
+p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    text-transform: unset; 
+}
+p::first-letter{
+    font-size: 40px;
+}
+dl{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    text-transform: unset; 
+}
+form{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.center{
+    display:block;
+    width:20%;
+    margin:0 auto;
+}
+.spice{
+    width: 5px;
+}
+#myform, #myguess{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+legend{
+    font-family: 'Heebo', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+}
+#bastion{
+    text-align: right;
+}
+#go{
+    color: rgb(201, 81, 201);
+    text-decoration: blueviolet;
+    text-decoration-line: underline;
+}
+#sub, #vali, #val, #btn{
+    background-color: #c6c90d;
+    letter-spacing: 0.2em;
+}

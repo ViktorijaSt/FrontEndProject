@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600i|Domine|Heebo|Libre+Baskerville|Vollkorn"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Your Recipes Ideas</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+    <script src="myScript.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body class="recc" onload="fetchRecipes()">
+    <header>
+        <aside>
+            <nav class="navbar navbar-toggleable-md navbar-inverse">
+                <div class="container">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link active" id="love" href="#">Home</a>
+                            <a href="recipe.html" class="nav-item nav-link" id="lo" href="#">Recipes</a>
+                            <a href="cookbook.html" class="nav-item nav-link" id="lov" href="#">Cookbook</a>
+                            <a href="about.html" class="nav-item nav-link" id="loveee" href="#">About</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="weather-container">
+                <div class="weatherNow">
+                    <div class="temp"><img class="mark rounded-circle"></div>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <h1 id="first">soul feeding</h1>
+    <h4 id="after">with Viktorija Stefanovska</h4>
+    <h2 class="container-fluid" id="divine">Your Recipes Ideas</h2>
+    <a id="jump" href="#here">Jump to the bottom</a>
+
+    <h2>Cook together</h2>
+    </div>
+    <article>
+        <p>
+            Hello there. Hope all of you are good and healty. I have one project on my mind for a long time.
+            Idea is to cook together. How? Down on this page, you will see form, where you can write your
+            recipes ideas, new or old, doesn't matter. I have great experience in developing, testing and finalizing
+            unique, delicious and dependable recipes. I'll simply prepare that meals.
+            Also all of you can make them and then we can share our food photos, experiences, cooking tips. I think
+            that
+            this cooking project will be place where we can find ideas and hanging together. Also hope we'll learn a
+            lot.
+            Only <i>rule</i> will be that the recipe needs to be easily accessible to a wide range of
+            eaters. Most importantly :)
+            I'm sure, after are recipe made, will be hard to stop eating it once you start.
+            So one day we can have, more recipes below than we could possibly need for one meal. :) :)
+            For sure. But it's a always better to have plenty choices and options.
+            Fill free to share your favorite meals. To save time, feel free also to cook something from below.
+        </p>
+        <br />
+        <p>Stay well good people. Positive and cozy. <br />
+            Your posts make my day. Thank you!</p>
+        <br />
+        <div class="conteiner">
+            <div class="row justify-content">
+                <img class="img-fluid col-xs-8 col-sm-7" src="photos/combo.jpg">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="conteiner">
+            <div class="row justify-content">
+                <img class="img-fluid col-xs-8 col-sm-7" src="photos/carrots.jpg">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="conteiner">
+            <div class="row justify-content">
+                <img class="img-fluid col-xs-8 col-sm-7" src="photos/kuglof.jpg">
+            </div>
+        </div>
+        <br />
+        <br />
+        <div class="conteiner">
+            <div class="row justify-content">
+                <img class="img-fluid col-xs-8 col-sm-7" src="photos/summer.jpg">
+            </div>
+        </div>
+    </article>
+    <br />
+    <div class="container">
+        <h1>Add your recipe</h1>
+        <div class="jumbotron">
+            <h3>Rrecommendations for recipes:</h3>
+            <form id="inputForm">
+                <div class="form-group">
+                    <label for="descInput">Description</label>
+                    <textarea class="form-control" id="descInput" cols="45" rows="8"
+                        placeholder="Ideas For What To Make ..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="descInput">Requiring effort</label>
+                    <select class="form-control" id="effortInput">
+                        <option value="---">---</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Difficult">Difficult</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="descInput">Your Name</label>
+                    <input type="text" class="form-control" id="nameInput"
+                        placeholder="Responsible for this idea is ...">
+                </div>
+                <button type="submit" id="btn">Add</button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="recList">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+    <form class="center">
+        <div class="archive-pagination pagination text-center">
+            <div class="pagination-previous text-left">
+                <a href="index.html">
+                    <div class="older-newer">⬷ older</div> Previous Page
+                </a>
+            </div>
+            <div class="spice"></div>
+            <div class="pagination-next text-right">
+                <a href="appleCake.html">
+                    <div class="older-newer">newer ⤐</div> Next Page
+                </a></div>
+        </div>
+    </form>
+    <br />
+    <hr />
+
+    <fieldset>
+        <legend>For free eCookbook</legend>
+        <form name="form" method="post" onSubmit="return ValidateEmail()">
+            Enter an Email Address : <input type="text" name="email">
+            <input type="submit" id="vali" name="Submit" value="Submit">
+        </form>
+
+    </fieldset>
+    <footer>
+        <br />
+        <div> &copy Viktorija Stefanovska </div>
+        <div id="bastion">Design by Bastion</div>
+    </footer>
+    <a id="go" href="#divine">Go up</a>
+    <a id="here"></a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="http://chancejs.com/chance.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="function.js"></script>
+</body>
+
+</html>

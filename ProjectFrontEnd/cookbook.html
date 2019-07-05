@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600i|Domine|Heebo|Libre+Baskerville|Vollkorn"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Cookbook</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+    <script src="myScript.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body class="recpe">
+    <header>
+        <aside>
+            <nav class="navbar navbar-toggleable-md navbar-inverse">
+                <div class="container">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mainNav">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link active" id="love" href="#">Home</a>
+                            <a href="recipe.html" class="nav-item nav-link" id="lo" href="#">Recipes</a>
+                            <a href="cookbook.html" class="nav-item nav-link" id="lov" href="#">Cookbook</a>
+                            <a href="about.html" class="nav-item nav-link" id="loveee" href="#">About</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="weather-container">
+                <div class="weatherNow">
+                    <div class="temp"><img class="mark rounded-circle"></div>
+                </div>
+            </div>
+        </aside>
+    </header>
+    <h1 id="first">soul feeding</h1>
+    <h4 id="after">with Viktorija Stefanovska</h4>
+    <h2 class="container-fluid" id="divine">CONNECT</h2>
+    <a id="jump" href="#here">Go down</a>
+    <a id="here"></a>
+    <br />
+    <div>
+        <p>
+            Say Hello! <br />
+            I’d love to connect and hear from you! Email me your questions, comments
+            and I’ll be sure to get back to you as soon as possible.<br />
+            How did you hear about <b>Soul feeding</b>?<br />
+            Shere and tell me your cooking story?
+            Can I help you with anything?<br />
+            Would you like to work with me? To create <i>delicios, best recipes</i>?<br />
+        </p>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <fieldset>
+        <legend>COOKING QUESTION?</legend>
+        <div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">HOW DID YOU HEAR ABOUT SOUL FEEDING?</label>
+                <select class="form-control" id="formControlSelect1">
+                    <option>-----</option>
+                    <option>Friend</option>
+                    <option>Online Article</option>
+                    <option>Internet Search</option>
+                    <option>Social Media</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">YOUR QUESTION</label>
+                <textarea class="form-control" id="formControlTextarea1" cols="45" rows="8"></textarea>
+            </div>
+            <form name="form" method="post" onSubmit="return ValidateEmail()">
+                Enter an Email Address : <input type="text" name="email">
+                <input type="submit" id="val" name="Submit" value="Submit">
+            </form>
+        </div>
+    </fieldset>
+    <br />
+    <hr />
+    <footer>
+        <br />
+        <div> &copy Viktorija Stefanovska </div>
+        <div id="bastion">Design by Bastion</div>
+    </footer>
+    <a id="go" href="#divine">Go up</a>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
